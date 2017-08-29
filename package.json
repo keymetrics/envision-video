@@ -1,0 +1,32 @@
+{
+  "name": "envision-video",
+  "version": "1.0.0",
+  "description": "Upload video for infinite replay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keymetrics-envision/envision-video.git"
+  },
+  "author": "Florian H-J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keymetrics-envision/envision-video/issues"
+  },
+  "homepage": "https://github.com/keymetrics-envision/envision-video#readme",
+  "dependencies": {
+    "envision-sdk": "0.0.2",
+    "express": "^4.15.4",
+    "multer": "^1.3.0"
+  },
+  "envision": {
+    "name": "Envision Video",
+    "icon": "http://simpleicon.com/wp-content/uploads/video-camera-1.png",
+    "description": "Upload video for infinite replay",
+    "category": "utils",
+    "screen": true,
+    "config": true
+  }
+}
