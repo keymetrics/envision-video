@@ -1,11 +1,15 @@
 {
   "name": "envision-video",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload video for infinite replay",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "apps": [
+    {
+      "name": "envision-video",
+      "script": "index.js",
+      "max_memory_restart": "600M"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keymetrics-envision/envision-video.git"
